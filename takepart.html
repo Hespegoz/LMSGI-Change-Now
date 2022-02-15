@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Climate Change Form</title>
+    </head>
+    <body>
+        <section>
+            <header>
+                <a href="index.html"><img src="images/zero.png" width="50" height="50" /><h1>Zer0 Hour</h1></a>
+                <h2>Take Part</h2>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="causes.html">Causes</a></li>
+                    <li><a href="consequences.html">Consequences</a></li>
+                    <li><a href="solutions.html">Solutions</a></li>
+                    <li><a href="takepart.html">Take Part</a></li>
+                </ul>
+            </nav>
+        </section>
+        <form action="takepart@zerohour.org" method="post">
+            <fieldset>
+                <legend>Why Getting Involved</legend>
+                <text>You should get involved in our cause because we are near the 0 hour -- the moment when our time is up and there's no turning back</text><br>
+                <text>By giving us your personal contact we can give send you the latest news, give you tips of how you can help to revert climate change 
+                    and send to your home a physical copy of our newspaper and merchandising from different organizations</text>
+            </fieldset>
+            <img src="images/stopclimatechange.jpg" width="250" height="250">
+            <fieldset>
+                <legend>Create a User*</legend>
+                <label for="user">Username:</label>
+                <input type="text" id="user" name="user" value="" maxlength="12" required="required" />
+                <label for="password">Password:</label>
+                <input type="password" id="password" value="" name="password" maxlength="8" required="required" /><br>
+                <br>
+                <label for="email">Email:</label>
+                <input type="text" id="email" value="" name="email" required="required" />
+            </fieldset>
+            <fieldset>
+                <legend>Personal Details*</legend>
+                <label for="surname">Surname:</label>
+                <input type="text" id="surname" name="surname" value="" required="required" />
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="surname" value="" required="required" /><br>
+                <br>
+                <label for="phone">Phone Number:</label>
+                <input type="text" id="phone" name="phone" value="" patter="[0-9]{9}" maxlength="9" required="required" />
+            </fieldset>
+            <fieldset>
+                <legend>Address</legend>
+                <label for="street">Street:</label>
+                <input type="text" id="street" name="street" value="" required="required" />
+                <label for="streetNumber">Number:</label>
+                <input type="text" id="streetNumber" name="streetNumber" value="" required="required" /><br>
+                <br>
+                <label for="plant">Plant:</label>
+                <input type="text" id="plant" name="plant" value="" required="required" />
+                <label for="plantLetter">Letter:</label>
+                <input type="text" id="plantLetter" name="plantLetter" value="" pattern="{A-Z}[1]"" maxlength="1" required="required" /><br>
+                <br>
+                <label for="zip">Zip Code:</label>
+                <input type="text" id="zip" name="zip" value="" pattern="{0-9}[5]" maxlength="5" required="required" />
+            </fieldset>
+            <fieldset>
+                <legend>Information Consent</legend>
+                <p>Would you like to receive news and offers from us to your email?</p>
+                <input type="radio" id="offersYes" name="offers" value="yes" />
+                <label for="offersYes">Yes</label><br>
+                <input type="radio" id="offersNo" name="offers" value="no" />
+                <label for="offersNo">No</label>
+            </fieldset>
+            <fieldset>
+                <legend>Terms of Service</legend>
+                <input type="checkbox" id="tos" name="tos" value="yes" required="required" />
+                <label for="tos">By clicking on the box you accept our <a href="">Terms of Service</a></label>
+            </fieldset>
+            <fieldset>
+                <legend>Motivations to be part*</legend>
+                <textarea id="explain" name="explain" rows="4" cols="50">
+                    </textarea>
+            </fieldset>
+            <br>
+            <input type="submit" name="submit" value="Submit" />
+            </fieldset>
+        </form>
+        
+        <footer>
+              <h3>Zer0 hour page</h3>
+               <p> Reach us out at >zerohourCONTACT@gmail.com</p>  
+              <p><img src="images/license.png" alt="CCReconocimiento-NoComercial-SinObraDerivada"></p>
+        </footer>
+    </body>
+</html>
