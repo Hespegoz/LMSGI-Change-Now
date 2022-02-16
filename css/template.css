@@ -119,10 +119,6 @@ nav{
     list-style: circle;
 }
 
-.parts li {
-    display:inline-block;
-}
-
 .parts li a {
     padding:10px 20px;
     display:inline-block;
