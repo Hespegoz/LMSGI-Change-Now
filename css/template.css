@@ -163,7 +163,7 @@ input[type="submit"] {
   margin-bottom:0;
   background:#1668C4;
   color:#fff;
-  border;none;
+  border:#000;
 }
 
 input[type="submit"]:hover {
