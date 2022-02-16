@@ -116,6 +116,20 @@ nav{
 .parts {
     width:100%;
     background: gray;
-    list-style: circle;
+    list-style: none;
+}
+
+.parts li {
+    display:inline-block;
+}
+
+.parts li a {
+    padding:10px 20px;
+    display:inline-block;
+}
+
+.parts li a:hover {
+    background:#ccc;
+    color:#000;
 }
 
