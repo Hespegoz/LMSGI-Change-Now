@@ -116,7 +116,7 @@ nav{
 .parts {
     width:100%;
     background: gray;
-    list-style: none;
+    list-style: circle;
 }
 
 .parts li {
