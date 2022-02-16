@@ -113,6 +113,8 @@ nav{
     padding: 30px;
 }
 
+/*ul*/
+
 .parts {
     width:100%;
     background: gray;
@@ -128,6 +130,8 @@ nav{
     background:#ccc;
     color:#000;
 }
+
+/*tabla*/
 
 table {
   border:1px solid #000;
@@ -147,6 +151,8 @@ table td:hover {
   background-color:#000;
   color:#fff;
 }
+
+/*form*/
 
 form {
   width:95%;
