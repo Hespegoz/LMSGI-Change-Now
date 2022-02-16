@@ -113,4 +113,9 @@ nav{
     padding: 30px;
 }
 
-.parts
+.parts {
+    width:100%;
+    background: gray;
+    list-style: circle;
+}
+
