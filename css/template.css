@@ -147,3 +147,25 @@ table td:hover {
   background-color:#000;
   color:#fff;
 }
+
+form {
+  width:95%;
+  border:5px solid #ccc;
+  margin:15px;
+  padding:15px;
+}
+
+input:focus {
+  border:1px solid #1668C4;
+}
+
+input[type="submit"] {
+  margin-bottom:0;
+  background:#1668C4;
+  color:#fff;
+  border;none;
+}
+
+input[type="submit"]:hover {
+  background:#4A88F4;
+}
